@@ -1,0 +1,43 @@
+<form action="">
+    <h2>Sign Up Form</h2>
+    <fieldset style="width: 60%;">
+        <legend>Personal Details</legend>
+        <label for="fname">First Name <b style="color: red;">*</b></label> &nbsp;&nbsp;&nbsp;
+        <input type="text" id="fname" placeholder="Enter Your First Name"><br><br>
+        <label for="lname">Last Name</label><b style="color: red;">*</b> &nbsp;&nbsp;&nbsp;
+        <input type="text" id="lname" placeholder="Enter Your Last Name"><br><br>
+        <label for="username">Username</label><b style="color: red;">*</b>&nbsp;&nbsp;&nbsp;
+        <input type="text" id="username" placeholder="Enter username"><br><br>
+        <label for="email">Email</label>&nbsp;&nbsp;&nbsp;
+        <input type="email" id="email" placeholder="Enter your email address"><br><br>
+        <label for="password">Password</label>&nbsp;&nbsp;&nbsp;
+        <input type="password" id="password" placeholder="Enter password"><br><br>
+        <label for="cpassword"> Confirm Password</label>&nbsp;&nbsp;&nbsp;
+        <input type="password" id="cpassword" placeholder="confirm password"><br><br>
+    </fieldset>
+    <fieldset style="width: 70%;">  
+        <legend>Other Details</legend>
+        <h3>Select your Gender</h3>
+        <input type="radio" id="male" name="gender"> <label for="male">Male</label><br><br>
+        <input type="radio" id="female" name="gender"> <label for="female">Female</label>
+        <h4>Select Course</h4>
+        <input type="checkbox" id="HTML" name="HTML" required> <label for="HTML">HTML</label>
+        <input type="checkbox" id="Python" name="python"> <label for="Python">Python</label>
+        <input type="checkbox" id="DataS" name="datas"> <label for="DataS">Data Science</label>
+        <input type="checkbox" id="Cybers" name="Uganda"> <label for="Cybers">Cyber Security</label>
+        <h4>Add a short Description About Yourself</h4>
+        <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+        <label for="date">Select the period for DOB</label>
+        <select name="year" id="years" size="7">
+            <option value="1990">1990-1995</option>
+            <option value="1995">1996-2000</option>
+            <option value="2000">2001-2005</option>
+            <option value="2005">2006-2010</option>
+            <option value="2010">2011-2015</option>
+            <option value="2015">2016-2020</option>
+            <option value="2020">2021-Now</option>   
+        </select>
+    </fieldset>
+    <br>
+    <input type="submit" value="Sign up" style="background-color: green;">
+    </form>

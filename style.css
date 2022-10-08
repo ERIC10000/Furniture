@@ -1,0 +1,42 @@
+/* li{
+    list-style: none;
+    display: inline-block;
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+   
+
+}
+
+a{
+    text-decoration: none;
+    color: gold;
+}
+
+a:hover{
+    color: black;
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+
+    
+} */
+
+#firstDiv{
+    background-color: red;
+    height: 200px;
+    
+
+
+}
+
+.firstClass{
+
+    background-color: White;
+    height: 200px;
+}
+
+.secondClass{
+    background-color: green;
+    height: 200px;
+}

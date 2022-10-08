@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Link tag, is used to link the webpage to the css file -->
+    <!-- rel - relationship -->
+
+
+    
+
+</head>
+<body>
+
+    <h2>Forms</h2>
+
+
+
+    <!-- Forms in html are used get the user input -->
+    <!-- A user can generate different inputs... -->
+    <!-- Text, Password, Email, Date, ..... -->
+    <!-- Forms are used in Login Screen, Sign Up, Comments... -->
+
+    <!-- (form) tag -->
+
+    <form action="" method="get">
+        
+        <fieldset>
+            <legend>Personal Info</legend>
+
+            First Name:<input type="text" name="firstname"> <br><br>
+            Last Name : <input type="text" name="lastname"> <br><br>
+    
+            Email : <input type="email" name="email" id="email" required><br><br>
+            Birthday : <input type="date" name="birthday" id=""><br><br>
+    
+            Password : <input type="password" name="password" id=""><br><br>
+
+        </fieldset> <br><br>
+
+
+        <fieldset>
+            <legend>Gender and Hobbies</legend>
+
+            Gender: <br>
+            <!-- A radio button prompts a user to select only one input -->
+    
+            <input type="radio" name="gender" id="male"   value="male"> Male <br>
+            <input type="radio" name="gender" id="female" value="female"> Female <br>
+            <input type="radio" name="gender" id="other"  value="other"> Other <br>
+    
+            <!-- Checkbox,the user can select multiple inputs  -->
+    
+            Pets: <br>
+            <input type="checkbox" name="pets" id="cat" value="cat"> Cats <br>
+            <input type="checkbox" name="pets" id="dog" value="dog"> Dogs <br>
+        </fieldset>  <br><br>
+
+       
+
+        <!-- Select tag, A list of items e,g countries where a user selects one item -->
+
+        <!-- we use (select tag) - introduces the list of items -->
+        <!-- (option tag) - contain one item in the list -->
+
+        Your Country: <br>
+        <select name="countries" id="countries">
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value=" tanzania">Tanzania</option>
+            <option value="rwanda">Rwanda</option>
+            <option value="burundi">Burundi</option>
+            <option value="s.sudan">S. Sudan</option>
+
+
+        </select> <br>
+
+        <!-- A field set encloses similar information together -->
+        <!-- A legend tag, provides a heading for a fieldset -->
+
+
+        <input type="submit" value="Register">
+
+        <!-- Submiiting a form -->
+        <!-- methods - get, post -->
+        <!-- action - file, or a route, where the data will be submited -->
+        <!-- Each input should have a name -->
+
+
+        
+
+        <!-- Embedding Youtube Videos on your webpage -->
+
+        <!-- CSS  -->
+
+        <!-- Create a cv application -->
+
+        <!-- 1.fieldset - personal information -->
+        <!-- 2.Education -->
+        <!-- 3.Work Experience -->
+        <!-- 4.Hobbies and References -->
+
+    </form>
+    
+</body>
+</html>
